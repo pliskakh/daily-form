@@ -1,0 +1,146 @@
+body{
+background: linear-gradient(to top right, #ff512f, #dd2476);;
+font: 400 13px/1.5 'Arial', sans-serif;
+color:  #797b7f;
+}
+
+/* Layout */
+.ba-container{
+	padding-top: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a {
+	color: #e22a6c;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.67;
+	border-bottom: 1px transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px dashed;
+}
+
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in, box-shadow .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	background-color: #ea355a;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	/*background-color: lighten(#ea355a, 60%);*/
+	background-color: #f6aebd;
+	box-shadow: 0px 3px 0px 0px #f196be;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	border-radius: 4px;
+	border: none;	
+	background-color: #f0f0f0;
+	color: #797b7f;
+	font-size: 14px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+a:focus,
+button:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	outline: 1px dotted #ea355a;
+}
+textarea {
+
+}
+
+.ba-form {
+	margin: 0 auto;
+	background-color: #FFF;
+	border-radius: 4px;
+	max-width: 460px;
+	padding: 27px 30px 57px;
+}
+.ba-form__header {
+	padding-bottom: 33px;
+}
+
+.ba-form__title {
+	margin: 0 0 13px;
+	color: #1b1c1d;
+	font-size: 24px;
+	font-weight: 700;
+	background: url('../img/logo.png') no-repeat;
+	padding-left: 30px;
+	line-height: 1;
+}
+
+.ba-row {
+	margin-bottom: 15px;
+}
+
+[name="first-name"] {
+	float: left;
+	width: 48.5%;
+}
+
+[name="last-name"] {
+	float: right;
+	width: 48.5%;
+}
+
+[name="email-address"],
+[name="password"]  {
+	width: 100%;
+}
+
+.ba-button-sign-up {
+	width: 100%;
+	font-size: 18px;
+	font-weight: 700;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 30px;
+	box-shadow: 0px 3px 0px 0px #bd1962;
+	margin-bottom: 22px;
+}
+
+
+
+
+
+
+
+
